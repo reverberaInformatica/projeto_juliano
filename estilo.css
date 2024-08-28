@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.galeria{
+    margin: auto;
+    width: 70%;
+    height: fit-content;
+}
+
+img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+video{
+    margin: 40px;
+    border-radius: 30px;
+    width: 70%
+
+
+}
+
+table {
+    background-color: rgba(12, 117, 56, 0.822);
+    width: 25%;
+    margin:auto;
+    font-size: 20px;
+}
+
+
+
+table tr:nth-child(even){
+
+    background-color: rgb(208, 243, 11);
+}
+
+
+
+.informacao{
+    border-radius: 30px;
+    padding: 50px;
+    background-color: rgb(38, 57, 141);
+    width:50% ;
+    margin: auto;
+}
+
+
+footer{
+    color: aliceblue;
+    font-size: 30px;
+}
