@@ -9,11 +9,22 @@ body{
     margin: auto;
     width: 70%;
     height: fit-content;
+    position: relative;
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    border-radius: 30px;
+
 }
 
 img{
     width: 100%;
-    border-radius: 30px;
+    height: 100;
+    position: sticky;
+    left: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    scroll-behavior: smooth;
 }
 
 video{
@@ -53,3 +64,50 @@ footer{
     color: aliceblue;
     font-size: 30px;
 }
+
+header{
+
+    background-color: #a3b18a;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #344e41;
+    padding: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: #dad7cd;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+nav li{
+    text-align: left;
+    letter-spacing: 5px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: unset;
+    padding: 10px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
